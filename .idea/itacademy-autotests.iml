@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="JAVA_MODULE" version="4">
-  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8" inherit-compiler-output="false">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
     <output url="file://$MODULE_DIR$/out" />
     <output-test url="file://$MODULE_DIR$/out/test/itacademy-autotests" />
     <exclude-output />
@@ -20,7 +20,6 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="library" name="selenium-java-2.52.0" level="project" />
-    <orderEntry type="library" name="libs" level="project" />
+    <orderEntry type="library" name="selenium-server-standalone-3.0.1" level="project" />
   </component>
 </module>
