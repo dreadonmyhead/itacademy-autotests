@@ -1,12 +1,14 @@
+package calculator;
+
 import org.junit.*;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.util.concurrent.TimeUnit;
 
 public class CalculatorTestSuite {
 
-    private final static WebDriver driver = new FirefoxDriver();
+    private final static WebDriver driver = new ChromeDriver();
 
     @BeforeClass
     public static void setUpClass() {
@@ -22,7 +24,7 @@ public class CalculatorTestSuite {
     public void testCalculator() throws InterruptedException {
         CalculatorPage page = new CalculatorPage(driver);
         page.goToPage();
-        page.insertFirstAmount("500");
+        page.insertFirstAmount("5000");
 
         page.calculate();
 

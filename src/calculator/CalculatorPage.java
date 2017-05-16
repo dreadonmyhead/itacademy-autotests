@@ -1,14 +1,19 @@
+package calculator;
+
 import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+
+import java.io.File;
 
 public class CalculatorPage {
 
     private final WebDriver driver;
 
     public CalculatorPage(WebDriver driver) {
-        super();
+        File file = new File("C:/Users/Dell/Downloads/ChromeSetup.exe");
+        System.setProperty("webdriver.chrome.driver", file.getAbsolutePath());
         this.driver = driver;
     }
 
