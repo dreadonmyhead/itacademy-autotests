@@ -12,7 +12,7 @@ public class CalculatorPage {
     private final WebDriver driver;
 
     public CalculatorPage(WebDriver driver) {
-        File file = new File("C:/Users/Dell/Downloads/ChromeSetup.exe");
+        File file = new File("/ChromeSetup.exe");
         System.setProperty("webdriver.chrome.driver", file.getAbsolutePath());
         this.driver = driver;
     }
