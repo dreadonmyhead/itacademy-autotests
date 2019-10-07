@@ -18,7 +18,7 @@ public class CalculatorPage {
     }
 
     public void goToPage() {
-        driver.get("https://www.swedbank.lt/lt/spreadsheets/consumer2");
+        driver.get("https://www.swedbank.lt/private/credit/loans/newSmall/small_loanLT/personal");
     }
 
     public void insertFirstAmount(String amount) {

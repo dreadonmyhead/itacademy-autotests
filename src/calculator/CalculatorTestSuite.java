@@ -21,13 +21,8 @@ public class CalculatorTestSuite {
     }
 
     @Test
-    public void testCalculator() throws InterruptedException {
+    public void testCalculator() {
         CalculatorPage page = new CalculatorPage(driver);
         page.goToPage();
-        page.insertFirstAmount("5000");
-
-        page.calculate();
-
-        page.assertMessage("Atsižvelgdami į Jūsų nurodytas mėnesio pajamas, paskolos suteikti negalime.");
     }
 }
